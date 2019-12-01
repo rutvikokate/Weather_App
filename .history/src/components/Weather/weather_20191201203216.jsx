@@ -42,7 +42,7 @@ const Weather=(props)=>{
                         
                        <div className="box">
                        
-                       {props.city?<h1 className="title is-3">Weather in {props.city} </h1>:<h1 className="title is-3" style={{color:'#e7e7e7'}}>City,Country</h1>}
+                       {props.city?<h1 className="title is-3">{props.city}</h1>:<h1 className="title is-3" style={{color:'#e7e7e7'}}>City,Country</h1>}
                        <hr/>
                        <div className="columns weather-bar">
                             <div className="column is-one-third" style={{background:''}}>

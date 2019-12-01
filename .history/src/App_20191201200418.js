@@ -91,11 +91,10 @@ export class App extends Component {
       temp_min:this.calcCelcius(response.main.temp_min),
       description:response.weather[0].description,
      wind_speed:response.wind.speed,
-     icon:response.weather[0].icon,
       error:false
     });
 
-    
+    this.get_weathericon(this.weatherIcon,response.weather[0].icon)
   }
   else{
     this.setState({error:true})

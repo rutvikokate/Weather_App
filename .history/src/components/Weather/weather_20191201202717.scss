@@ -35,11 +35,19 @@ hr{
 }
 
 img{
-    background: rgba(0, 0, 0, 0.096);
+    background: rgba(0, 0, 0, 0.185);
     border-radius: 100vh;
-    padding:8px;
-}
 
+}
+ .img:after{
+    content: '';
+    position: absolute;
+    width:200px;
+    height:200px;
+    top:0;
+    left:200px;
+    background: green;
+}
 .contents{
     text-align: center;
     padding:1em;

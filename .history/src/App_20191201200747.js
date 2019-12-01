@@ -41,34 +41,7 @@ export class App extends Component {
     return cel;
   }
 
-  get_weathericon(icon,rangeid){
-    switch(true){
-      case rangeid>=200 && rangeid <=232:
-        this.setState({icon:this.weatherIcon.Thunderstorm})
-        break;
-      case rangeid>=300 && rangeid <=321:
-            this.setState({icon:this.weatherIcon.Drizzle})
-            break;
-      case rangeid>=500 && rangeid <=531:
-            this.setState({icon:this.weatherIcon.Rain})
-            break;
-      case rangeid>=600 && rangeid <=622:
-            this.setState({icon:this.weatherIcon.Snow})
-            break;
 
-      case rangeid>=701 && rangeid <=781:
-            this.setState({icon:this.weatherIcon.Atmosphere});
-            break;
-      case rangeid===800:
-            this.setState({icon:this.weatherIcon.Clear});
-            break;
-      case rangeid>=801 && rangeid <=804:
-            this.setState({icon:this.weatherIcon.Clouds});
-            break;
-      default:
-          this.setState({icon:this.weatherIcon.Clouds});
-    }
-  }
 
   getWeather=async(e)=>{
     

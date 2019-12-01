@@ -42,13 +42,13 @@ const Weather=(props)=>{
                         
                        <div className="box">
                        
-                       {props.city?<h1 className="title is-3">Weather in {props.city} </h1>:<h1 className="title is-3" style={{color:'#e7e7e7'}}>City,Country</h1>}
+                       {props.city?<h1 className="title is-3">{props.city}</h1>:<h1 className="title is-3" style={{color:'#e7e7e7'}}>City,Country</h1>}
                        <hr/>
                        <div className="columns weather-bar">
                             <div className="column is-one-third" style={{background:''}}>
                             <div className="field is-grouped is-grouped-centered">
                             <h1 className="title is-1">
-                                {props.weatherIcon?<img  className="image is-110x110" src={`http://openweathermap.org/img/wn/${props.weatherIcon}@2x.png`} alt=""/>:<span>-</span>}
+                                <span className="img">{props.weatherIcon?<img src={`http://openweathermap.org/img/wn/${props.weatherIcon}@2x.png`} alt=""/>:<span>-</span>}</span>
                             </h1>
                             </div>
                             </div>

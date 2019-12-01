@@ -18,7 +18,7 @@ $notification-background-color:red;
 }
 
 .weather-bar{
-  position: relative;
+  
 margin:1.5em 0;
 }
 .button{
@@ -35,11 +35,19 @@ hr{
 }
 
 img{
-    background: rgba(0, 0, 0, 0.096);
+    background: rgba(0, 0, 0, 0.185);
     border-radius: 100vh;
-    padding:8px;
+    position: relative;
 }
-
+ .img:after{
+    content: '';
+    position: relative;
+    width:20px;
+    height:20px;
+    top:0;
+    left:200px;
+    background: green;
+}
 .contents{
     text-align: center;
     padding:1em;
