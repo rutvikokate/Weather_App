@@ -7,7 +7,7 @@ const Weather=(props)=>{
         <div>
              <div>
                <div className="title header has-text-light">Weather App</div> 
-                           
+               <span className="tag">sadsad</span>
             </div>
             <div>{props.error?error():null}</div>
             <div className="section">
@@ -84,19 +84,19 @@ const Weather=(props)=>{
                             <p><span className="heading">wind speed: </span>{props.wind_speed?<span>{props.wind_speed} m/s</span>:<span>-</span>}</p>
                             <p><span className="heading">Status: </span>{props.description?<span>{props.description} m/s</span>:<span>-</span>}</p>
                         </div>
-                    </div>
-                    </div>
-                </div>    
 
-                <div className="finger">
-                    <div className="content">
-                        <span>&#128405;</span>
+                        
+
+
+                    </div>
                     </div>
                 </div>
+
+                
+            </div>
+           
             </div>
             
-            </div>
-
         </div>
         
     )

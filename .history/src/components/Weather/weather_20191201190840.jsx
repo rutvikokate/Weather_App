@@ -7,7 +7,6 @@ const Weather=(props)=>{
         <div>
              <div>
                <div className="title header has-text-light">Weather App</div> 
-                           
             </div>
             <div>{props.error?error():null}</div>
             <div className="section">
@@ -17,7 +16,6 @@ const Weather=(props)=>{
                 <div className="columns">
                     <div className="column is-one-third left">
                         <div className="box">
-                           
                             <form action="" onSubmit={props.loadweather}>
                             <div className="subtitle">Enter details:</div>
                             <div className="field">
@@ -84,19 +82,19 @@ const Weather=(props)=>{
                             <p><span className="heading">wind speed: </span>{props.wind_speed?<span>{props.wind_speed} m/s</span>:<span>-</span>}</p>
                             <p><span className="heading">Status: </span>{props.description?<span>{props.description} m/s</span>:<span>-</span>}</p>
                         </div>
-                    </div>
-                    </div>
-                </div>    
 
-                <div className="finger">
-                    <div className="content">
-                        <span>&#128405;</span>
+                        
+
+
+                    </div>
                     </div>
                 </div>
+
+                       <h1 className="title has-text-danger is-centered">dsfdasdasdsf</h1> 
+            </div>
+           
             </div>
             
-            </div>
-
         </div>
         
     )
