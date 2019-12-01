@@ -82,7 +82,7 @@ const Weather=(props)=>{
                        
                         <div className="description">
                             <p><span className="heading">wind speed: </span>{props.wind_speed?<span>{props.wind_speed} m/s</span>:<span>-</span>}</p>
-                            <p><span className="heading">Status: </span>{props.description?<span>{props.description} m/s</span>:<span>-</span>}</p>
+                            <p><span className="heading">Status: </span>{props.description?<span>{props.description}</span>:<span>-</span>}</p>
                         </div>
                     </div>
                     </div>
