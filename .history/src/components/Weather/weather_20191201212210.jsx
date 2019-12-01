@@ -20,7 +20,7 @@ const Weather=(props)=>{
                             
                            
                             <form action="" onSubmit={props.loadweather}>
-                            <div className="title is-5">Your city and country:</div>
+                            <div className="subtitle">Your city and country..</div>
                             <div className="field">
                             <div className="control">
                                 <input type="text" className="input is-success " name="city" autoComplete="off" placeholder="City"/>
