@@ -7,7 +7,7 @@ $notification-background-color:red;
 
 .header{background:$success;
     padding:0.5em;
- 
+    color:rgb(77, 77, 77);
     text-align: center;
     font-family: 'Montserrat';
  }
@@ -19,11 +19,7 @@ $notification-background-color:red;
 
 .weather-bar{
   position: relative;
-  margin:1.5em 0;
-//background: red;
-display: flex;
-align-items: center;
-
+margin:1.5em 0;
 }
 .button{
     border-radius: 0px;
@@ -31,7 +27,6 @@ align-items: center;
 .box{
     padding:1.5em;
     border-radius: 0px;
-
 }
 hr{
     border-bottom:0.5px solid #efefef;
@@ -40,9 +35,9 @@ hr{
 }
 
 img{
-  background: #48c77438;
-    //border:3px solid #48c774;
-    border-radius:100vh;
+  background: #00000015;
+border:3px solid #48c774;
+    border-radius: 100vh;
     padding:8px;
 }
 
@@ -76,8 +71,5 @@ input[type="text"]{
         .title{
             font-size: 1.4em;
         }
-    }
-    .weather-bar{
-        display: block;
     }
  } 

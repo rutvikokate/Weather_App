@@ -1,5 +1,4 @@
 $primary:white;
-$darker:#111;
 $beige-lighter: #EFF0EB;
 $body-background-color: $beige-lighter;
 $input-radius:0px;
@@ -21,6 +20,11 @@ body{
     font-family: 'Roboto';
     color:$success;
     height:100%;
-    background: $light;
+    //background: $light;
 }
 
+.box{
+    @include until($mobile){
+        
+    }
+}

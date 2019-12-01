@@ -7,7 +7,7 @@ $notification-background-color:red;
 
 .header{background:$success;
     padding:0.5em;
- 
+    color:rgb(77, 77, 77);
     text-align: center;
     font-family: 'Montserrat';
  }
@@ -20,7 +20,7 @@ $notification-background-color:red;
 .weather-bar{
   position: relative;
   margin:1.5em 0;
-//background: red;
+background: red;
 display: flex;
 align-items: center;
 
@@ -31,7 +31,6 @@ align-items: center;
 .box{
     padding:1.5em;
     border-radius: 0px;
-
 }
 hr{
     border-bottom:0.5px solid #efefef;
@@ -76,8 +75,5 @@ input[type="text"]{
         .title{
             font-size: 1.4em;
         }
-    }
-    .weather-bar{
-        display: block;
     }
  } 

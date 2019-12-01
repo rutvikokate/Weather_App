@@ -1,5 +1,4 @@
 $primary:white;
-$darker:#111;
 $beige-lighter: #EFF0EB;
 $body-background-color: $beige-lighter;
 $input-radius:0px;
@@ -24,3 +23,8 @@ body{
     background: $light;
 }
 
+.box{
+    @include until($mobile){
+
+    }
+}

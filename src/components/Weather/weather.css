@@ -8,7 +8,6 @@
 .header {
   background: #48c774;
   padding: 0.5em;
-  color: #4d4d4d;
   text-align: center;
   font-family: 'Montserrat'; }
 
@@ -19,7 +18,9 @@
 
 .weather-bar {
   position: relative;
-  margin: 1.5em 0; }
+  margin: 1.5em 0;
+  display: flex;
+  align-items: center; }
 
 .button {
   border-radius: 0px; }
@@ -33,7 +34,7 @@ hr {
   margin: 0; }
 
 img {
-  background: rgba(0, 0, 0, 0.096);
+  background: #48c77438;
   border-radius: 100vh;
   padding: 8px; }
 
@@ -57,8 +58,8 @@ input[type="text"] {
   display: inline;
   color: #48c774; }
 
-.notification > button.delete {
-  border: none; }
-
-.is-hidden {
-  display: none; }
+@media screen and (max-width: 768px) {
+  .box .title {
+    font-size: 1.4em; }
+  .weather-bar {
+    display: block; } }

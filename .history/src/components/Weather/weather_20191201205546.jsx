@@ -91,7 +91,7 @@ const Weather=(props)=>{
             </div>
             <div className="finger">
                     <div className="content">
-                        <span role="img" aria-label="finger">&#128405;</span>
+                        <span role="img" aria-lalbe="fuck off">&#128405;</span>
                     </div>
                 </div>
             </div>

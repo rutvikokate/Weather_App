@@ -7,7 +7,7 @@ $notification-background-color:red;
 
 .header{background:$success;
     padding:0.5em;
- 
+    color:rgb(77, 77, 77);
     text-align: center;
     font-family: 'Montserrat';
  }
@@ -31,7 +31,7 @@ align-items: center;
 .box{
     padding:1.5em;
     border-radius: 0px;
-
+    background: $dark;
 }
 hr{
     border-bottom:0.5px solid #efefef;
