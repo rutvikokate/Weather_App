@@ -40,7 +40,6 @@ const Weather=(props)=>{
                     <div className="column right">
                         
                        <div className="box">
-                           <img src="http://openweathermap.org/img/wn/10d@2x.png" alt=""/>
                        {props.city?<h1 className="title is-3">{props.city}</h1>:<h1 className="title is-3" style={{color:'#e7e7e7'}}>City,Country</h1>}
                        <hr/>
                        <div className="columns weather-bar">

@@ -29,7 +29,7 @@ export class App extends Component {
       Rain:'wi-storm-showers',
       Snow:'wi-snow',
       Atmosphere:'wi-fog',
-      Clear:'wi-night-clear',
+      Clear:'wi-day-sunny',
       Clouds:'wi-day-fog'
     }
 
