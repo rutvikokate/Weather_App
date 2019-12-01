@@ -88,12 +88,13 @@ const Weather=(props)=>{
                     </div>
                 </div>    
 
-            </div>
-            <div className="finger">
+                <div className="finger">
                     <div className="content">
                         <span>&#128405;</span>
                     </div>
                 </div>
+            </div>
+            
             </div>
 
         </div>

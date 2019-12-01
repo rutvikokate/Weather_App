@@ -14,7 +14,8 @@
 
 .finger {
   text-align: center;
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  margin-top: 1em; }
 
 .weather-bar {
   margin: 1.5em 0; }
