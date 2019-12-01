@@ -1,0 +1,26 @@
+$primary:white;
+$darker:#111;
+$beige-lighter: #EFF0EB;
+$body-background-color: $beige-lighter;
+$input-radius:0px;
+$button-border-radius:0px;
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900&display=swap');
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/elements/_all.sass";
+
+@import "../node_modules/bulma/sass/form/_all.sass";
+@import "../node_modules/bulma/sass/components/_all.sass";
+@import "../node_modules/bulma/sass/layout/_all.sass";
+@import "../node_modules/bulma/sass/grid/_all.sass";
+
+
+
+body{
+    font-family: 'Montserrat';
+    color:$success;
+    height:100%;
+    background: $light;
+}
+

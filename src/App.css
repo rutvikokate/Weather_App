@@ -7102,7 +7102,7 @@ label.panel-block {
       width: 100%; } }
 
 body {
-  font-family: 'Roboto';
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #48c774;
   height: 100%;
   background: whitesmoke; }

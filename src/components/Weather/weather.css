@@ -34,7 +34,7 @@ hr {
   margin: 0; }
 
 img {
-  background: #48c77438;
+  background: #48c7747a;
   border-radius: 100vh;
   padding: 8px; }
 
@@ -42,17 +42,18 @@ img {
   text-align: center;
   padding: 1em; }
 
-input[type="text"] {
-  font-family: 'Roboto'; }
-
 .description {
-  background: rgba(209, 127, 127, 0);
   text-transform: capitalize;
   font-weight: 400;
   padding: 1em 0;
+  display: flex;
   padding-bottom: 0; }
   .description p {
     margin: 5px 0; }
+  .description .left {
+    flex: 1; }
+  .description .right {
+    margin-right: 1em; }
 
 .heading {
   display: inline;
@@ -62,4 +63,9 @@ input[type="text"] {
   .box .title {
     font-size: 1.4em; }
   .weather-bar {
-    display: block; } }
+    display: block; }
+  .description {
+    display: block;
+    text-align: center; }
+    .description p {
+      margin: 20px 0; } }
