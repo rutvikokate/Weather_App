@@ -17,7 +17,7 @@ const Weather=(props)=>{
                     <div className="column is-one-third left">
                         <div className="box">
                             <form action="" onSubmit={props.loadweather}>
-                            <div className="subtitle">Enter details:</div>
+                            <div className="subtitle">Enteretails:</div>
                             <div className="field">
                             <div className="control">
                                 <input type="text" className="input is-success " name="city" autoComplete="off" placeholder="City"/>
