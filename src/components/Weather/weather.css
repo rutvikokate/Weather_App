@@ -1,0 +1,57 @@
+@import url(./../../App.css);
+@keyframes spinAround {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(359deg); } }
+
+.header {
+  background: #48c774;
+  padding: 0.5em;
+  color: #4d4d4d;
+  text-align: center;
+  font-family: 'Montserrat'; }
+
+.weather-bar {
+  margin: 1.5em 0; }
+
+.button {
+  border-radius: 0px; }
+
+.box {
+  padding: 1.5em;
+  border-radius: 0px; }
+
+hr {
+  border-bottom: 0.5px solid #efefef;
+  margin: 0; }
+
+i {
+  font-size: 1.5em;
+  color: #48c774; }
+
+.contents {
+  text-align: center;
+  padding: 1em; }
+
+input[type="text"] {
+  font-family: 'Roboto'; }
+
+.description {
+  background: rgba(209, 127, 127, 0);
+  text-transform: capitalize;
+  font-weight: 400;
+  padding: 1em 0;
+  padding-bottom: 0; }
+  .description p {
+    margin: 5px 0; }
+
+.heading {
+  display: inline;
+  color: #48c774; }
+
+.notification > button.delete {
+  border: none; }
+
+.is-hidden {
+  display: none; }
