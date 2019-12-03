@@ -42,6 +42,12 @@ img {
   text-align: center;
   padding: 1em; }
 
+.control .input {
+  text-transform: capitalize; }
+
+.control li {
+  margin: 10px; }
+
 .description {
   text-transform: capitalize;
   font-weight: 400;
@@ -51,9 +57,11 @@ img {
   .description p {
     margin: 5px 0; }
   .description .left {
-    flex: 1; }
+    flex: 1;
+    text-align: left; }
   .description .right {
-    margin-right: 1em; }
+    margin-right: 1em;
+    text-align: left; }
 
 .heading {
   display: inline;
@@ -65,7 +73,8 @@ img {
   .weather-bar {
     display: block; }
   .description {
-    display: block;
-    text-align: center; }
+    display: block; }
+    .description .left, .description .right {
+      text-align: center; }
     .description p {
       margin: 20px 0; } }
