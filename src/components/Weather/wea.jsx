@@ -37,7 +37,7 @@ export class Weather2 extends Component {
         }
         return(
             <ul>
-              {suggestion.map((item)=><li className="tag is-success" onClick={()=>this.suggestionselected(item)}>{item}</li>)}
+              {suggestion.map((item)=><li className="tag is-success is-rounded" style={{cursor:'pointer'}}onClick={()=>this.suggestionselected(item)}>{item}</li>)}
           </ul>
         );
     }

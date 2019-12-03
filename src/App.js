@@ -40,11 +40,11 @@ export class App extends Component {
       Clear:'wi-night-clear',
       Clouds:'wi-day-fog'
     }
-    /* this.getdata(); */
+    /* this.getdata();  */
     
   };
 
- /*  getdata=async()=>{
+  /*  getdata=async()=>{
 
     const get=await fetch("https://raw.githubusercontent.com/russ666/all-countries-and-cities-json/6ee538beca8914133259b401ba47a550313e8984/countries.min.json");
     const response=await get.json();
@@ -57,8 +57,8 @@ export class App extends Component {
   
     console.log(this.state.countries)
     console.log(this.state.cities)
-  } */
-
+  } 
+  */
 
 
   
