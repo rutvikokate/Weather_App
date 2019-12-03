@@ -11,18 +11,18 @@
   text-align: center;
   font-family: 'Montserrat'; }
 
-.finger {
-  text-align: center;
-  font-size: 1.5em;
-  margin-top: 1em; }
+.blank {
+  color: #e7e7e7; }
 
 .weather-bar {
   position: relative;
-  margin: 1.5em 0;
+  margin: 0;
+  padding: 1em 0;
   display: flex;
   align-items: center; }
 
 .button {
+  outline: none;
   border-radius: 0px; }
 
 .box {
@@ -33,10 +33,11 @@ hr {
   border-bottom: 0.5px solid #efefef;
   margin: 0; }
 
-img {
-  background: #48c7747a;
+.image {
+  width: 100px;
   border-radius: 100vh;
-  padding: 8px; }
+  padding: 0px;
+  filter: drop-shadow(0px 0px 0.4em #00000079); }
 
 .contents {
   text-align: center;
@@ -51,30 +52,33 @@ img {
 .description {
   text-transform: capitalize;
   font-weight: 400;
-  padding: 1em 0;
-  display: flex;
-  padding-bottom: 0; }
+  margin: 0px;
+  padding: 0 1em;
+  display: flex; }
   .description p {
     margin: 5px 0; }
   .description .left {
     flex: 1;
-    text-align: left; }
+    text-align: left;
+    padding-left: 0.5em; }
   .description .right {
-    margin-right: 1em;
-    text-align: left; }
+    padding-right: 1em;
+    text-align: right; }
 
 .heading {
   display: inline;
-  color: #48c774; }
+  color: #48c774;
+  font-weight: bold; }
 
 @media screen and (max-width: 768px) {
-  .box .title {
-    font-size: 1.4em; }
+  img {
+    width: 100px; }
   .weather-bar {
     display: block; }
   .description {
-    display: block; }
+    display: block;
+    text-align: right; }
     .description .left, .description .right {
       text-align: center; }
     .description p {
-      margin: 20px 0; } }
+      margin: 8px 0; } }
