@@ -5,9 +5,8 @@
 $notification-background-color:red;
 
 
-.header{background:$success;
+.header{
     padding:0.5em;
- 
     text-align: center;
     font-family: 'Montserrat';
  }
@@ -96,11 +95,6 @@ hr{
 }
 
  @media screen and (max-width:"768px"){
-    .box{
-        .title{
-            
-        }
-    }
     img{
         width:100px;
     }

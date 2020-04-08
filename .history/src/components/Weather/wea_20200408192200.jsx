@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Auto from './auto'
 
+
 export class Weather2 extends Component {
     constructor(props){
         super(props);
@@ -55,7 +56,7 @@ export class Weather2 extends Component {
     return (
         <div>
           <div>
-               <div className="title header has-text-light">Weather App</div> 
+              <div className="header title">Weather App</div>
             </div>
             <div>{this.props.error?error():null}</div>
             <div className="section">
@@ -71,7 +72,7 @@ export class Weather2 extends Component {
                             <div className="title is-4">Your city and country:</div>
                              <div className="field has-addons">
                             <div className="control has-icons-right is-expanded">
-                                <input type="text" value={text} onChange={this.ontextchange} className="input is-success " name="country" autoComplete="off" placeholder="Country"/>
+                                <input type="text" value={text} onChange={this.ontextchange} className="input" name="country" autoComplete="off" placeholder="Country"/>
                                 {this.rendersuggestions()}
                     
                             </div>
@@ -79,12 +80,12 @@ export class Weather2 extends Component {
                                     
                             <div className="field">
                                 <div className="control">
-                                    <input type="text" className="input is-success" name="city" autoComplete="off" placeholder="City"/>
+                                    <input type="text" className="input" name="city" autoComplete="off" placeholder="City"/>
                                     
                                 </div>
                             </div>
                             <div className="field is-grouped is-grouped-centered">
-                                <button className="button  is-success "   id="button" name="submit" ><span className="icon"><i class="fas fa-arrow-circle-down"></i></span><span>Get Weather</span></button>
+                                <button className="button"   id="button" name="submit" ><span className="icon"><i class="fas fa-arrow-circle-down"></i></span><span>Get Weather</span></button>
                             </div>
                             </form>
                         </div>

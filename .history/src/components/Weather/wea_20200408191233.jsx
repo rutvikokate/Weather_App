@@ -161,7 +161,7 @@ function error(){
     return(
         <div className="notification is-danger">
             <button className="delete"></button>
-            Please enter City and Country
+            Please enter City and Coun
         </div>
     )
     

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Auto from './auto'
 
+
 export class Weather2 extends Component {
     constructor(props){
         super(props);
@@ -55,7 +56,7 @@ export class Weather2 extends Component {
     return (
         <div>
           <div>
-               <div className="title header has-text-light">Weather App</div> 
+              <div className="header s"></div>
             </div>
             <div>{this.props.error?error():null}</div>
             <div className="section">

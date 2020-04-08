@@ -118,11 +118,11 @@ export class App extends Component {
     if(city && country)
     {
     
-    const api_call=await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=cc22af6d4d1e99232f6dab0195d0bf6e`);
+    const api_call=await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=03ed0bc43d201a026dbd1a871d210806`);
     const response=await api_call.json();
     console.log(response);
 
-
+    https://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=b6907d289e10d714a6e88b30761fae22
     this.setState({
       city:`${response.name},${response.sys.country}`,
       celcius:this.calcCelcius(response.main.temp),

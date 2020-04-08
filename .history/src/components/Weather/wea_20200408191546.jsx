@@ -55,7 +55,7 @@ export class Weather2 extends Component {
     return (
         <div>
           <div>
-               <div className="title header has-text-light">Weather App</div> 
+               <div className="title header " }>Weather App</div> 
             </div>
             <div>{this.props.error?error():null}</div>
             <div className="section">

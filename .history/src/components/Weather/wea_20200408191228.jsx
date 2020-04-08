@@ -68,7 +68,7 @@ export class Weather2 extends Component {
                             
                            
                             <form action="" onSubmit={this.props.loadweather}>
-                            <div className="title is-4">Your city and country:</div>
+                            <div className="title is-4">Your city and ctry:</div>
                              <div className="field has-addons">
                             <div className="control has-icons-right is-expanded">
                                 <input type="text" value={text} onChange={this.ontextchange} className="input is-success " name="country" autoComplete="off" placeholder="Country"/>
@@ -161,7 +161,7 @@ function error(){
     return(
         <div className="notification is-danger">
             <button className="delete"></button>
-            Please enter City and Country
+            Please enter City and Coun
         </div>
     )
     

@@ -122,7 +122,7 @@ export class App extends Component {
     const response=await api_call.json();
     console.log(response);
 
-
+    
     this.setState({
       city:`${response.name},${response.sys.country}`,
       celcius:this.calcCelcius(response.main.temp),

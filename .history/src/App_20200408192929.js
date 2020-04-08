@@ -122,7 +122,7 @@ export class App extends Component {
     const response=await api_call.json();
     console.log(response);
 
-
+    https://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=b6907d289e10d714a6e88b30761fae22
     this.setState({
       city:`${response.name},${response.sys.country}`,
       celcius:this.calcCelcius(response.main.temp),

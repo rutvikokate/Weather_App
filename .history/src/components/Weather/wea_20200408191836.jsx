@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Auto from './auto'
+import 
 
 export class Weather2 extends Component {
     constructor(props){
@@ -55,7 +56,9 @@ export class Weather2 extends Component {
     return (
         <div>
           <div>
-               <div className="title header has-text-light">Weather App</div> 
+              <div className="section" style={{padding:'1em',textAlign:'center',background:'#48c774'}}>
+                  <div className="title">Weather App</div>
+              </div>
             </div>
             <div>{this.props.error?error():null}</div>
             <div className="section">

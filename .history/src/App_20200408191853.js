@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import  Weather2  from './components/Weather/wea'
 import './App.css'
-import './components/Weather/weather.css'
+import './components/we'
 import 'weather-icons/css/weather-icons.css'
 import countries from './data/countries.js'
 
@@ -118,11 +118,11 @@ export class App extends Component {
     if(city && country)
     {
     
-    const api_call=await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=cc22af6d4d1e99232f6dab0195d0bf6e`);
+    const api_call=await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=c71cbed6a04f97ad3d38d65a83329dd2`);
     const response=await api_call.json();
     console.log(response);
 
-
+    
     this.setState({
       city:`${response.name},${response.sys.country}`,
       celcius:this.calcCelcius(response.main.temp),

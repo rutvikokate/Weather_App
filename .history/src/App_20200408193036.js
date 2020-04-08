@@ -118,7 +118,7 @@ export class App extends Component {
     if(city && country)
     {
     
-    const api_call=await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=cc22af6d4d1e99232f6dab0195d0bf6e`);
+    const api_call=await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=03ed0bc43d201a026dbd1a871d210806`);
     const response=await api_call.json();
     console.log(response);
 

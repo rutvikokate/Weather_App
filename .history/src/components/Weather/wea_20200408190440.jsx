@@ -41,6 +41,9 @@ export class Weather2 extends Component {
           </ul>
         );
     }
+
+
+
     suggestionselected(value){
         this.setState(()=>({
             text:value,
@@ -49,13 +52,17 @@ export class Weather2 extends Component {
         }))
         console.log(value)
     }
+
+
   
+
   render() {
     const {text}=this.state;
     return (
         <div>
           <div>
                <div className="title header has-text-light">Weather App</div> 
+
             </div>
             <div>{this.props.error?error():null}</div>
             <div className="section">
@@ -77,6 +84,7 @@ export class Weather2 extends Component {
                             </div>
                             </div>
                                     
+
                             <div className="field">
                                 <div className="control">
                                     <input type="text" className="input is-success" name="city" autoComplete="off" placeholder="City"/>
@@ -105,6 +113,7 @@ export class Weather2 extends Component {
                             </div>
                             <p className="title is-4" style={{textTransform:'capitalize',paddingTop:'5px'}}>{this.props.description?<span>{this.props.description}</span>:<span>{null}</span>}</p>
                             </div>
+
                             <div className="column"  style={{background:''}}>
                                 <div className="content">
                                     <nav className="level is-mobile" style={{background:'',marginBottom:'20px'}}>
@@ -143,6 +152,7 @@ export class Weather2 extends Component {
                             <div className="right">
                             
                             <p><span className="heading" style={{color:'orange'}}><i className="wi wi-sunrise is-size-5"/> sunrise: </span>{this.props.sunrise?<span>{this.props.sunrise}</span>:<span><i className="wi wi-na is-size-4 blank"/></span>}</p>
+
                             <p><span className="heading" style={{color:'darkblue'}}><i className="wi wi-moonrise is-size-5"/> sunset: </span>{this.props.sunset?<span>{this.props.sunset}</span>:<span><i className="wi wi-na is-size-4 blank"/></span>}</p>
                            
                             </div>
@@ -150,6 +160,7 @@ export class Weather2 extends Component {
                     </div>
                     </div>
                 </div>    
+
             </div>
             
             </div>
@@ -157,6 +168,9 @@ export class Weather2 extends Component {
     );
   }
 }
+
+
+
 function error(){
     return(
         <div className="notification is-danger">
@@ -166,4 +180,6 @@ function error(){
     )
     
 }
+
 export default Weather2;
+
