@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import  Weather2  from './components/Weather/wea'
 import './App.css'
 import 'weather-icons/css/weather-icons.css'

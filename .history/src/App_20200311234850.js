@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+import Weather from './components/Weather/weather'
 import  Weather2  from './components/Weather/wea'
+import Auto from './components/Weather/auto'
 import './App.css'
 import 'weather-icons/css/weather-icons.css'
 import countries from './data/countries.js'
@@ -71,7 +73,7 @@ export class App extends Component {
     let utcString = dateObj.toUTCString();
     
     let newdate= new Date(utcString)
-    return newdate.toLocaleString().slice(10,22);
+    return newdate.toLocaleString().slice(11,22);
   
   }
   

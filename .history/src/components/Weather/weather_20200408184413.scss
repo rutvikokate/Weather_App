@@ -9,7 +9,7 @@ $notification-background-color:red;
     padding:0.5em;
  
     text-align: center;
-    font-family: 'Montserrat';
+    font-family: 'Open Sans';
  }
 
  .blank{
@@ -96,6 +96,11 @@ hr{
 }
 
  @media screen and (max-width:"768px"){
+    .box{
+        .title{
+            
+        }
+    }
     img{
         width:100px;
     }

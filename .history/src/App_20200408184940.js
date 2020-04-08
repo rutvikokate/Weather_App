@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+
 import  Weather2  from './components/Weather/wea'
+import Auto from './components/Weather/auto'
 import './App.css'
 import 'weather-icons/css/weather-icons.css'
 import countries from './data/countries.js'
