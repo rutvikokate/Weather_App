@@ -8,7 +8,7 @@ const Weather=(props)=>{
     return(
         <div>
              <div>
-               <div className="title header has-text-light">Weather App</div> 
+               <div className="title header has-text-light">Weathers App</div> 
 
             </div>
             <div>{props.error?error():null}</div>
@@ -21,7 +21,7 @@ const Weather=(props)=>{
                             
                            
                             <form action="" onSubmit={props.loadweather}>
-                            <div className="title is-5">Your city and country:</div>
+                            <div className="title is-5">Yours city and country:</div>
                             <div className="field">
                             <div className="control">
                                 <input type="text"  className="input is-success " name="city" autoComplete="off" placeholder="City"/>
