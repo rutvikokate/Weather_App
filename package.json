@@ -10,7 +10,7 @@
     "react-geocode": "^0.2.1",
     "react-google-autocomplete": "^1.1.2",
     "react-google-maps": "^9.4.5",
-    "react-scripts": "3.2.0",
+    "react-scripts": "5.0.1",
     "weather-icons": "git+https://github.com/erikflowers/weather-icons.git"
   },
   "scripts": {
